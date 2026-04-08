@@ -1,0 +1,130 @@
+
+      body {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Red+Hat+Display', sans-serif;
+            background-color: hsl(225, 100%, 94%);
+        }
+
+        .container {
+            /* border: 2px solid black; */
+            width: 22rem;
+            height: 30rem;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card1 img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 10px 10px 0px 0px;
+        }
+        .card2{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            border-radius: 0px 0px 10px 10px;
+
+        }
+        #box1 {
+            /* border: 2px solid red; */
+            font-weight: 900;
+            text-align: center;
+            padding: 10px;
+            font-size: 1.5rem;
+            width: 18rem;
+        }
+
+        #box1 p {
+            font-size: 0.8rem;
+            font-weight: 500;
+            color: hsl(224, 23%, 55%);
+
+        }
+
+        #box2 {
+            width: 18rem;
+            padding: 10px;
+            /* border: 2px solid red; */
+            background-color: hsl(225, 100%, 98%);
+            font-weight: 700;
+            display: flex;
+            border-radius: 10px;
+
+        }
+
+        .bot1 {
+            display: flex;
+            align-items: center;
+            /* border: 2px solid black; */
+        }
+
+        .bot2 {
+            width: 12rem;
+            padding: 6px;
+            /* margin: 2px; */
+            display: flex;
+            flex-direction: column;
+            /* border: 2px solid black; */
+            border-radius: 10px;
+
+        }
+
+        .bot2 span {
+            margin: 2px;
+        }
+
+        #price {
+            color: hsl(224, 23%, 55%);
+            font-size: 0.9rem;
+        }
+
+        .bot3 {
+            /* border: 2px solid black; */
+            display: flex;
+            align-items: center;
+            font-size: 0.8rem;
+        }
+        .bot3 a:hover{
+            cursor: pointer;
+            text-decoration: none;
+            color:hsl(245, 59%, 70%) ;
+        }
+
+        #box3 {
+            width: 18rem;
+            margin: 16px;
+            padding: 8px;
+            /* border: 2px solid red; */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+
+        .btn {
+            width: 19rem;
+            height: 2.6rem;
+            border-radius: 10px;
+            color: hsl(225, 100%, 94%);
+            background-color: hsl(245, 75%, 52%);
+            cursor: pointer;
+            border: none;
+        }
+        .btn:hover{
+            /* background: linear-gradient( hsl(225, 100%, 94%),hsl(245, 75%, 52%)); */
+            background-color: hsl(245, 59%, 70%);
+        }
+        #box3 p{
+              font-size: 0.8rem;
+              color: hsl(224, 23%, 55%);
+              cursor: pointer;
+        }
+        
